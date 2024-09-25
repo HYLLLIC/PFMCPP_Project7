@@ -24,6 +24,8 @@ struct Character
     void defend();
     
     void help( Character& other );
+
+    void printStats();
     
     int takeDamage(int damage);
     
@@ -71,4 +73,5 @@ private:
     std::unique_ptr<int> initialHitPoints, initialArmorLevel, initialAttackDamage;
     
     void attackInternal(Character& other);
+    void increaseStats(int&, int&);
 };
