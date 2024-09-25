@@ -2,7 +2,7 @@
 
 #include "Character.h"
 
-struct Dragon;
+struct Character;
 
 struct Dragon : Character
 {

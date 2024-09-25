@@ -1,7 +1,8 @@
 #pragma once
 
 #include "Item.h"
-#include "HelpfulItem.h"
+
+struct Character;
 
 struct HelpfulItem : Item
 {
