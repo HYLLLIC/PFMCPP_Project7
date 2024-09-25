@@ -2,6 +2,8 @@
 
 #include "Character.h"
 
+struct Dragon;
+
 struct Dragon : Character
 {
     Dragon(std::string name_, int hp_, int armor);

@@ -1,3 +1,4 @@
+#include "Character.h"
 #include "DragonSlayer.h"
 #include "Dragon.h"
 

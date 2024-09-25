@@ -57,7 +57,7 @@ void useDefensiveItem(Character*, Item& item)
         //same with paladins
         ch->boostArmor( item.getBoost() * 1.3 );
     }
-    else if( auto* ch = dynamic_cast<DragonSlayer*>(character))
+    else if( auto* ch = dynamic_cast<DragonSlayer*>(character) )
     {
         ch->boostArmor( item.getBoost() * 1.5 );
     }
@@ -76,7 +76,7 @@ void useHelpfulItem(Character*, Item* item)
     {
         ch->boostHitPoints(item->getBoost() * 1.5);
     }
-    else if( auto* ch = dynamic_cast<DragonSlayer*>(character))
+    else if( auto* ch = dynamic_cast<DragonSlayer*>(character) )
     {
         ch->boostHitPoints(item->getBoost() * 1.25);
     }
@@ -95,7 +95,7 @@ void useAttackItem(Character*, Item* item)
     {
         ch->boostAttackDamage(item->getBoost() * 1.33);
     }
-    else if( auto* ch = dynamic_cast<DragonSlayer*>(character))
+    else if( auto* ch = dynamic_cast<DragonSlayer*>(character) )
     {
         assert(false);
         //DragonSlayers get a 10x boost when attacking dragons, from their attack item.
