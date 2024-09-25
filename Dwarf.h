@@ -1,6 +1,7 @@
 #pragma once
 
-struct Character;
+#include "Character.h"
+//struct Character;
 
 struct Dwarf : Character
 {

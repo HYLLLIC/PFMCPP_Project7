@@ -86,7 +86,7 @@ int Character::takeDamage(int damage)
     return hitPoints;
 }
 
-void boostStats(int& stat, int& initialVal)
+void increaseStats(int& stat, int& initialVal)
 {
     if(stat < initialVal)
     {

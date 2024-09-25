@@ -2,7 +2,7 @@
 
 #include "Item.h"
 
-struct Character;
+//struct Character;
 
 struct HelpfulItem : Item
 {
