@@ -4,6 +4,7 @@
 
 #include "DefensiveItem.h"
 #include "HelpfulItem.h"
+#include "Utility.h"
 
 Character::Character(int hp, int armor_, int attackDamage_ ) :
     hitPoints(hp),
@@ -11,8 +12,8 @@ Character::Character(int hp, int armor_, int attackDamage_ ) :
     attackDamage(attackDamage_)
 {
     initialHitPoints.reset( new int(hitPoints) );
-    initialArmorLevel.reset( new int( armor) );
-    initialAttackDamage.reset( new int( attackDamage) );
+    initialArmorLevel.reset( new int(armor) );
+    initialAttackDamage.reset( new int(attackDamage) );
 }
 
 void Character::attack( Character& other )
@@ -103,6 +104,7 @@ void Character::attackInternal(Character& other)
         increaseStats(hitPoints, *initialHitPoints);
         increaseStats(armor, *initialArmorLevel);	
         increaseStats(attackDamage, *initialAttackDamage);
+        
         std::cout << getName() << " defeated " << other.getName() << " and leveled up!" << std::endl;        
     }
 }

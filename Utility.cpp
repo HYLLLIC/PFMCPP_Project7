@@ -1,3 +1,5 @@
+#include <cassert>
+
 #include "Utility.h"
 
 #include "Dragon.h"
@@ -8,6 +10,9 @@
 #include "Character.h"
 #include "HelpfulItem.h"
 #include "DefensiveItem.h"
+#include "AttackItem.h"
+
+struct Item;
 
 
 std::vector<std::unique_ptr<Item>> makeHelpfulItems(int num)

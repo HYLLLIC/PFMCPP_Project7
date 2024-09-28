@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Character.h"
-//struct Character;
+struct Character;
 
 struct Dwarf : Character
 {

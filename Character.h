@@ -25,9 +25,9 @@ struct Character
     
     void help( Character& other );
 
-    void printStats();
-    
     int takeDamage(int damage);
+
+    void printStats();
     
     int getHP() const { return hitPoints; }
     int getArmorLevel() const { return armor; }

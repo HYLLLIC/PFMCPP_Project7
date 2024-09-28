@@ -55,6 +55,8 @@ it's very easy to mess this task up.
     check each source file for things being included that aren't used.
  */
 
+#include "Item.h"
+#include "Character.h"
 #include "Dwarf.h"
 #include "Paladin.h"
 #include "Dragon.h"
