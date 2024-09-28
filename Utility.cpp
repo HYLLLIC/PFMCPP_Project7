@@ -2,15 +2,15 @@
 
 #include "Utility.h"
 
-#include "Dragon.h"
-#include "DragonSlayer.h"
-#include "Dwarf.h"
-#include "Paladin.h"
-
 #include "Character.h"
 #include "HelpfulItem.h"
 #include "DefensiveItem.h"
 #include "AttackItem.h"
+
+#include "Dragon.h"
+#include "DragonSlayer.h"
+#include "Dwarf.h"
+#include "Paladin.h"
 
 struct Item;
 
