@@ -1,6 +1,6 @@
 #pragma once
 
-//#include "Character.h"
+#include "Character.h"
 
 struct Character;
 
