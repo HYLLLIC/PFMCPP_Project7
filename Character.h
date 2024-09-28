@@ -9,7 +9,7 @@
 
 struct Character
 {
-    Character(int hp, int armor_, int attackDamage_ );
+    Character(int hp, int armor_, int attackDamage_);
     virtual ~Character() { }
     
     /*
