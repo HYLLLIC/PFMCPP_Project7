@@ -1,4 +1,3 @@
-#include "Character.h"
 #include "Dwarf.h"
 #include "Utility.h"
 

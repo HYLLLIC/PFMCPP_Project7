@@ -2,7 +2,6 @@
 
 #include "Utility.h"
 
-#include "Character.h"
 #include "HelpfulItem.h"
 #include "DefensiveItem.h"
 #include "AttackItem.h"
@@ -14,7 +13,6 @@
 
 struct Item;
 
-
 std::vector<std::unique_ptr<Item>> makeHelpfulItems(int num)
 {
     std::vector<std::unique_ptr<Item>> items;
@@ -24,7 +22,7 @@ std::vector<std::unique_ptr<Item>> makeHelpfulItems(int num)
         items.push_back( std::unique_ptr<HelpfulItem>(new HelpfulItem()) );
     }
     
-    std::cout << "made " << items.size() << " helpful items" << std::endl;
+    //std::cout << "made " << items.size() << " helpful items" << std::endl;
     return items;
 }
 
@@ -37,7 +35,7 @@ std::vector<std::unique_ptr<Item>> makeDefensiveItems(int num)
         items.push_back( std::unique_ptr<DefensiveItem>(new DefensiveItem()) );
     }
     
-    std::cout << "made " << items.size() << " defensive items" << std::endl;
+    //std::cout << "made " << items.size() << " defensive items" << std::endl;
     return items;
 }
 
