@@ -1,7 +1,5 @@
 #pragma once
 
-#include "Item.h"
-
 struct Character;
 
 struct AttackItem : Item
